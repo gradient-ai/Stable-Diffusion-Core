@@ -25,6 +25,6 @@ mkdir stable-diffusion/models/ldm/stable-diffusion-v1/
 sudo apt update
 sudo apt install -y aria2
 aria2c --seed-time=0 --max-overall-upload-limit=1K "magnet:?xt=urn:btih:3A4A612D75ED088EA542ACAC52F9F45987488D1C&tr=udp://tracker.opentrackr.org:1337"
-mv sd-v1-4.ckpt models/ldm/stable-diffusion-v1/model.ckpt 
+mv sd-v1-4.ckpt stable-diffusion/models/ldm/stable-diffusion-v1/model.ckpt 
 cd GFPGAN/experiments/pretrained_models
 wget https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pth
