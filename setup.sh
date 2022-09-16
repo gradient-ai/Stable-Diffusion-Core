@@ -4,15 +4,15 @@ git clone https://github.com/CompVis/taming-transformers
 git clone https://github.com/CompVis/stable-diffusion
 git clone https://github.com/openai/CLIP
 ## pip installs
-pip install transformers scipy ftfy ipywidgets msgpack rich  einops omegaconf pytorch_lightning realesrgan  basicsr  optax facexlib realesrgan kornia imwatermark
-pip install git+https://github.com/crowsonkb/k-diffusion.git
-pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
-pip install git+https://github.com/openai/CLIP.git
-pip install diffusers
-pip install omegaconf einops pytorch_lightning invisible-watermark kornia
+pip3 install transformers scipy ftfy ipywidgets msgpack rich  einops omegaconf pytorch_lightning realesrgan  basicsr  optax facexlib realesrgan kornia imwatermark
+pip3 install git+https://github.com/crowsonkb/k-diffusion.git
+pip3 install -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
+pip3 install git+https://github.com/openai/CLIP.git
+pip3 install diffusers
+pip3 install omegaconf einops pytorch_lightning invisible-watermark kornia
 # Install and setup repo packages
 cd GFPGAN
-python setup.py develop
+python3 setup.py develop
 cd ..
 ## additional setup tasks
 cd stable-diffusion
