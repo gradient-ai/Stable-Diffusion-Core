@@ -120,6 +120,6 @@ Many of the same arguments are used here as were above. In addition,
 
 To get your generated images back, simply execute the following in your terminal:
 
-`sftp -r paperspace@<your_Paperspace_IP_Address>:~/`
+`sftp -r paperspace@<your Paperspace IP Address>:<path to your files of interest>`
 
 then use `get <filename>` to download the file to your local before using `quit` to exit
