@@ -64,7 +64,7 @@ Once you have completed set up by executing `bash setup.sh`, you are now ready t
 
 You can follow the sample prompting methodology from the original CompVis repo for stable diffusion for a quick test:
 
-`python scripts/txt2img.py --prompt "a photograph of an astronaut riding a horse" --plms `
+`python3 scripts/txt2img.py --prompt "a photograph of an astronaut riding a horse" --plms`
 
 By default this will use a guidance scale of 7.5, height and width of 512, and 50 diffusion sampling steps. The full list of arguments can be found here:
 
