@@ -56,7 +56,7 @@ To get started on your Core machine, first clone this repository into your worki
 ## get the models
 
 - Download the `sd-v1-4.ckpt` file to `stable-diffusion/models/ldm/stable-diffusion-v1/`
-- download the GFPGAN model to its
+- download the GFPGAN model to its pretrained models folder
 
 # Inference: txt2img
 
