@@ -109,7 +109,7 @@ Stable Diffusion also boasts powerful capabilities for img2img generation as wel
 
 You can test this on any sample photo of appropriate size as the init image. Below is the test cue from the original repo:
 
-`python scripts/img2img.py --prompt "A fantasy landscape, trending on artstation" --init-img <path-to-img.jpg> --strength 0.8`
+`python3 scripts/img2img.py --prompt "A fantasy landscape, trending on artstation" --init-img <path-to-img.jpg> --strength 0.8`
 
 Many of the same arguments are used here as were above. In addition,
 
