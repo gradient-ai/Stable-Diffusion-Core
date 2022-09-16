@@ -3,7 +3,13 @@
 Description:
 This repo ontains quick setup instructions and assistance for launching Stable Diffusion on Paperspace Core's ML-in-a-box Machines.
 
-# Setup
+# Recommended Core setup
+
+- In the Core machine create page, be sure to select the ML-in-a-box machine tile
+- It is recommended that you select a GPU machine instance with at least 16 GB of GPU ram for this setup in its current form
+- Be sure to set up your SSH keys before you create this machine
+
+# Machine setup
 
 To get started on your Core machine, simply run `bash setup.sh` to quickly setup your environment with the following:
 
@@ -112,3 +118,11 @@ Many of the same arguments are used here as were above. In addition,
 
 -- `strength` which represents how much destruction of the original image takes place during noising. a score of 0 would have no destruction and leave the image unchanged, while a score of 1 would leave the original image completely without affect on the output due to total destuction
 -- `init_img` the path to your image. Recommended size is 512x512.
+
+# Retrieving files from Remote machine
+
+To get your generated images back, simply execute the following in your terminal:
+
+`sftp -r paperspace@<your_Paperspace_IP_Address>:~/`
+
+then use `get <filename>` to download the file to your local before using `quit` to exit
