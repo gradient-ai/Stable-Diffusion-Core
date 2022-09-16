@@ -11,7 +11,7 @@ This repo ontains quick setup instructions and assistance for launching Stable D
 
 # Machine setup
 
-To get started on your Core machine, simply run `bash setup.sh` to quickly setup your environment with the following:
+To get started on your Core machine, first clone this repository into your working directory of choice. Then, simply run `bash setup.sh` to quickly setup your environment with the following:
 
 ## Cloned repos
 
@@ -53,13 +53,10 @@ To get started on your Core machine, simply run `bash setup.sh` to quickly setup
 
 - cp -r ../taming-transformers/taming ./
 
-## get the model
+## get the models
 
-sudo apt update
-sudo apt install -y aria2
-aria2c --seed-time=0 --max-overall-upload-limit=1K "magnet:?xt=urn:btih:3A4A612D75ED088EA542ACAC52F9F45987488D1C&tr=udp://tracker.opentrackr.org:1337"
-
-mkdir outputs
+- Download the `sd-v1-4.ckpt` file to `stable-diffusion/models/ldm/stable-diffusion-v1/`
+- download the GFPGAN model to its
 
 # Inference: txt2img
 
